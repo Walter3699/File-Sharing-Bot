@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6889095577:AAFfZ1Kx_g3pVNUnrUymuxXHrAoHGrDk5S0")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6245239352:AAGClcRktNL5mJyznj6iEoKlBdHdz7LGl2U")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("API_ID", "27501733"))
@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("API_ID", "27501733"))
 API_HASH = os.environ.get("API_HAS", "687b5c7656849e9a3b125d691f824497")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002059440608"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002028778900"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5847742709"))
@@ -28,11 +28,11 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5847742709"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://SURYABHAI:SURYABHAI@cluster0.9ykdkdl.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://lajopoc569:suryabhai3699@cluster0.z3mprke.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "FILESTOREBOT")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_ID", "-1001682281417"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_ID", "-1001824793325"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
